@@ -28,3 +28,6 @@ prop_sort xs = (sort xs) == (sort (sort xs))
 
 prop_adder :: Int -> Int -> Bool
 prop_adder a b = A.adder a b == a + b
+
+prop_adder_2 :: Int -> Bool
+prop_adder_2 x = (A.adder x (- x)) == 0

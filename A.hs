@@ -1,7 +1,7 @@
 module A (main, adder) where
 
 adder :: Int -> Int -> Int
-adder x y = x + y + 1
+adder x y = x + y
 
 
 main ::  IO ()
